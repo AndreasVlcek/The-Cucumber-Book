@@ -20,3 +20,9 @@ In order to \<meat some goal\>
 As a \<type of stakeholder\>
 
 I want \<a feature\>
+
+## Scenario Pattern
+
+1. Get the system into a particular state.
+2. Poke it.
+3. Examine the new state.
