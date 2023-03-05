@@ -11,7 +11,7 @@ cucumber features/test.feature --dry-run
 
 cucumber --i18n help
 
-cucumber --i18n-languages 
+cucumber --i18n-languages
 
 ## Conventions
 
