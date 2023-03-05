@@ -12,3 +12,11 @@ cucumber features/test.feature --dry-run
 Conventions:
 
 Feature files lowercase with underscores: user_logs_in.feature
+
+A Template for Describing a Feature
+
+In order to \<meat some goal\>
+
+As a \<type of stakeholder\>
+
+I want \<a feature\>
