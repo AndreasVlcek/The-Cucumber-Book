@@ -9,6 +9,10 @@ cucumber --format progress
 
 cucumber features/test.feature --dry-run
 
+cucumber --i18n help
+
+cucumber --i18n-languages 
+
 ## Conventions
 
 Feature files lowercase with underscores: user_logs_in.feature
