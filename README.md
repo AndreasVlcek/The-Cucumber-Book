@@ -8,3 +8,7 @@ Some useful commandse:
 cucumber --format progress
 
 cucumber features/test.feature --dry-run
+
+Conventions:
+
+Feature files lowercase with underscores: user_logs_in.feature
