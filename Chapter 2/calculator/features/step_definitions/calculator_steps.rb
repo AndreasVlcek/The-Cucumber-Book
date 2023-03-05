@@ -1,5 +1,5 @@
-Given(/^the input "([^"]*)"$/) do |arg1|
-	pending # express the regex above with bthe code you wish you had
+Given(/^the input "([^"]*)"$/) do |input|
+	@input = input
 end
 
 When(/^the calculator is run$/) do
