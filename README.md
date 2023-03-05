@@ -3,17 +3,17 @@ Repository for studying "The Cucumber Book"
 
 https://pragprog.com/titles/hwcuc2/the-cucumber-book-second-edition/
 
-Some useful commandse:
+## Some useful commands
 
 cucumber --format progress
 
 cucumber features/test.feature --dry-run
 
-Conventions:
+## Conventions
 
 Feature files lowercase with underscores: user_logs_in.feature
 
-A Template for Describing a Feature
+## A Template for Describing a Feature
 
 In order to \<meat some goal\>
 
