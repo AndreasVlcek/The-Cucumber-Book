@@ -26,3 +26,7 @@ I want \<a feature\>
 1. Get the system into a particular state.
 2. Poke it.
 3. Examine the new state.
+
+## Scenarios are stateless
+
+Each scenario must make sense and be able to be executed independently of any other scenario.
