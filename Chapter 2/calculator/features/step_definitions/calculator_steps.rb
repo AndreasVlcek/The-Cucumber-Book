@@ -3,7 +3,8 @@ Given(/^the input "([^"]*)"$/) do |input|
 end
 
 When(/^the calculator is run$/) do
-	pending # express the regex above with bthe code you wish you had
+	@output = `ruby calc.rb #{@input}`
+	raise('Command failed!') unless $?.success?
 end
 
 Then(/^the output should be "([^"]*)"$/) do
